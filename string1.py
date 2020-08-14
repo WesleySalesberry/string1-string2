@@ -91,8 +91,8 @@ def fix_start(s):
 def mix_up(a, b):
     new_a = a.replace(a[0:2], b[0:2])
     new_b = b.replace(b[0:2], a[0:2])
-    new_mixed_up = new_a + ' ' + new_b
-    return new_mixed_up
+    new_word = new_a + " " + new_b
+    return new_word
 
 
 # Provided simple test() function used in main() to print
