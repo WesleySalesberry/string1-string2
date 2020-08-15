@@ -28,7 +28,7 @@ __author__ = "Wesley"
 
 
 def donuts(count):
-    reply = "Number of donuts:  "
+    reply = "Number of donuts: "
 
     if count >= 10:
         return(reply + 'many')
